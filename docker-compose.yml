@@ -8,4 +8,4 @@ services:
       - ./nginx/default.conf:/etc/nginx/conf.d/repnotes-ami-v2/default.conf  
     restart: always 
     ports:
-      - '127.0.0.1:3034:80' 
+      - '3034:80' 
